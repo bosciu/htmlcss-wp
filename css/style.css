@@ -1,10 +1,5 @@
 /* Debug */
 
-header {
-    background-color: #E479E6;
-    height: 100px;
-}
-
 #carousel {
     height: 350px;
     background-color: #E1D77A;
@@ -44,6 +39,11 @@ footer {
     padding: 0;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #868686;
+}
+
 .container {
     width: 80%;
     padding: 30px 0;
@@ -58,6 +58,25 @@ main::after {
 
 
 /* Header */
+
+img[src*="logo"] {
+    width: 16%;
+    padding-right: 15px;
+    border-right: 1px solid #E5E5E5;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 2%;
+    font-size: 22px;
+    list-style: none;
+}
+
+nav li>a {
+    padding: 20px 20px 20px 0;
+    text-decoration: none;
+    color: inherit;
+}
 
 #carousel {
     margin: 20px 0;

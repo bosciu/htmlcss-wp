@@ -128,7 +128,7 @@ main>section {
 }
 
 #img-1 {
-    background: url(../img/img-1.jpg);
+    background: url(../img/img-1.jpg) center;
 }
 
 #img-2 {

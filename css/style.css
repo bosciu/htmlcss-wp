@@ -1,0 +1,105 @@
+/* Debug */
+
+header {
+    background-color: #E479E6;
+    height: 100px;
+}
+
+#carousel {
+    height: 350px;
+    background-color: #E1D77A;
+}
+
+main {
+    background-color: #ABCFE7
+}
+
+div:first-child {
+    height: 50px
+}
+
+#left,
+#right {
+    height: 300px;
+}
+
+#middle {
+    height: 300px;
+}
+
+footer {
+    height: 50px;
+    background-color: #8801FE;
+}
+
+
+/* /Debug */
+
+
+/* Common */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    padding: 30px 0;
+    margin: auto;
+}
+
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Header */
+
+#carousel {
+    margin: 20px 0;
+}
+
+
+/* Main */
+
+main>aside,
+main>section {
+    float: left;
+}
+
+#left,
+#right {
+    width: 20%;
+}
+
+#left {
+    border-width: 10px 5px;
+    border-color: #0187FC;
+    border-style: solid;
+    border-left: 0;
+}
+
+#middle {
+    width: 60%;
+    border-width: 10px 5px;
+    border-color: #0187FC;
+    border-style: solid;
+}
+
+#right {
+    border-width: 10px 5px;
+    border-color: #0187FC;
+    border-style: solid;
+    border-right: 0;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 15px;
+}

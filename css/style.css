@@ -1,15 +1,10 @@
 /* Debug */
 
-#carousel {
-    height: 350px;
-    background-color: #E1D77A;
-}
-
 main {
     background-color: #ABCFE7
 }
 
-div:first-child {
+main>header {
     height: 50px
 }
 
@@ -50,6 +45,10 @@ body {
     margin: auto;
 }
 
+.br-15px {
+    border-radius: 15px;
+}
+
 main::after {
     content: "";
     display: table;
@@ -76,11 +75,40 @@ nav li>a {
     padding: 20px 20px 20px 0;
     text-decoration: none;
     color: inherit;
+    text-transform: uppercase;
 }
 
-#carousel {
-    margin: 20px 0;
+
+/* Riquadro immagine principale */
+
+.layover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
 }
+
+#main-img {
+    height: 450px;
+    margin: 20px 0;
+    background: url(../img/banner.jpg) center;
+    color: white;
+}
+
+#main-description {
+    width: 55%;
+    padding-top: 17%;
+    margin-left: 5%;
+    font-size: 30px;
+}
+
+.description {
+    width: 90%;
+    line-height: 1.5em;
+    font-size: 16px;
+}
+
+
+/* /Riquadro immagine principale */
 
 
 /* Main */
